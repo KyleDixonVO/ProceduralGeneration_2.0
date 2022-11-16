@@ -34,7 +34,19 @@ public class CityGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            for(int i = 0; i < buildings.Count; i++)
+            {
+                if (buildings[i] != null)
+                {
+                    Destroy(buildings[i]);
+                }
+            }
+
+            buildings = new List<GameObject>();
+            GenerateBuildings();
+        }
     }
 
     public void GenerateBuildings()
