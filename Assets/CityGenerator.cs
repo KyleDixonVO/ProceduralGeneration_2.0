@@ -5,20 +5,20 @@ using UnityEngine;
 public class CityGenerator : MonoBehaviour
 {
 
-    float cityX = 1000;
-    float cityZ = 1000;
+    public float cityX = 1000;
+    public float cityZ = 1000;
 
-    float generatedDistX;
-    float generatedDistZ;
+    public float generatedDistX;
+    public float generatedDistZ;
 
-    float streetMinSpacing = 2.0f;
-    float streetMaxSpacing = 8.0f;
+    public float streetMinSpacing = 2.0f;
+    public float streetMaxSpacing = 8.0f;
 
-    float maxBuildingHeight = 100.0f;
-    float minBuildingHeight = 5.0f;
+    public float maxBuildingHeight = 100.0f;
+    public float minBuildingHeight = 5.0f;
 
-    float maxBuildingWidth = 20;
-    float minBuildingWidth = 2;
+    public float maxBuildingWidth = 20;
+    public float minBuildingWidth = 2;
 
     public GameObject cityOrigin;
     public GameObject building;

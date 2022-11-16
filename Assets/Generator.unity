@@ -246,6 +246,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8f3af492efede143a99aae317d46a71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cityX: 2000
+  cityZ: 2000
+  generatedDistX: 0
+  generatedDistZ: 0
+  streetMinSpacing: 2
+  streetMaxSpacing: 8
+  maxBuildingHeight: 100
+  minBuildingHeight: 5
+  maxBuildingWidth: 20
+  minBuildingWidth: 2
   cityOrigin: {fileID: 836597927}
   building: {fileID: 0}
   buildings: []
